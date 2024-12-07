@@ -6,6 +6,7 @@ export const Contacts = ({navigation}) => {
         <Button
             title='HOME'
             onPress={()=>{
+
                 navigation.navigate('Wellcome_Martina');
             }}
         />
