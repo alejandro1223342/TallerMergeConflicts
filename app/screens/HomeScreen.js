@@ -2,7 +2,8 @@ import { View, Text, StyleSheet, Button } from 'react-native'
 
 export const Home = ({ navigation }) => {
     return <View style={styles.container}>
-        <Text>HOME</Text>
+        <Text>Bienvenido a mi aplicación, soy Alejandro</Text>
+        <Text>Como tan muchacho?</Text>
 
         <View style={styles.botones}>
 
@@ -12,6 +13,7 @@ export const Home = ({ navigation }) => {
                     onPress={() => {
                         navigation.navigate('ContactsNav');
                     }}
+                    color={"red"}
                 />
             </View>
 
@@ -33,7 +35,7 @@ export const Home = ({ navigation }) => {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#fff',
+        backgroundColor: 'yellow',
         alignItems: 'center',
         justifyContent: 'center',
     },
